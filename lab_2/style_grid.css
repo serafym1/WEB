@@ -70,19 +70,6 @@ img{
     background-color: lightpink;
     grid-area: area4;
 }
-@media screen and (max-width: 768px){
-    p{ font-size: 18px; }
-    #main{
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: 
-            "area2"
-            "area3"
-            "area5"
-            "area6"
-            "area4";
-    }
-}
 @media screen and (max-width: 425px){
     p{ font-size: 14px; }
     #map_img{ content: url("img/map_img_small.png"); }
