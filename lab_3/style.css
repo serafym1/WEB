@@ -94,18 +94,26 @@ img{
     grid-row: 5/6;
 }
 
-@media screen and (max-width: 768px){
-    p{
-        font-size: 18px;
-    }
-}
 
-@media screen and (max-width: 425px){
-    p{
+@media screen and (max-width: 768px) {
+    p {
         font-size: 14px;
     }
-    #map_img{
-        src: "img/map_img_small.png";
+
+
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div_2 { order: 1; }
+    #div_3 { order: 2; }
+    #div_5_map { order: 3; }
+    #div_4 { order: 4; }
+    #div_6 { order: 5; }
+
+    #map_img {
+        width: 100%;
+        height: auto;
     }
 }
-
