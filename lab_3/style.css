@@ -33,6 +33,8 @@ img{
     border: 1px solid black;
     width: 20%;
     padding: 5px;
+    min-width: fit-content;
+    white-space: nowrap;
 }
 
 .div-central-parts{
@@ -100,7 +102,6 @@ img{
         font-size: 14px;
     }
 
-
     #main {
         display: flex;
         flex-direction: column;
@@ -112,6 +113,10 @@ img{
     #div_4 { order: 4; }
     #div_6 { order: 5; }
 
+    #first-last h3{
+        min-width: fit-content;
+    }
+    
     #map_img {
         width: 100%;
         height: auto;
